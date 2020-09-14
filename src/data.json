@@ -1,0 +1,76 @@
+{
+  "title": "Hello, I am Alireza!",
+  "subtitle": "CHALLENGE ACCEPTED",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/alireza-epr70",
+    "telegram": "https://t.me/alireza_epr",
+    "github": "https://github.com/Alireza-epr"
+  },
+
+  "sections": [
+    {
+      "title": "about",
+      "items": [
+        {
+          "type": "p",
+          "content": "Born in Iran."
+        },
+        {
+          "type": "p",
+          "content": "Bachelor of electronics but Full-stack web developer enthusiast !!"
+        },
+        {
+          "type": "p",
+          "content": "“Good design is obvious. Great design is transparent.”"
+        }
+      ]
+    },
+    {
+      "title": "skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "img/html.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/css.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/javascript.png",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/php.png",
+            "title": "PHP"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/react.png",
+            "title": "React"
+          }
+        }
+      ]
+    }
+  ],
+  "icons":
+    {
+      "down":"img/arrow.png",
+      "up":"img/up.png",
+      "change":"img/change.png"
+    }
+  
+}

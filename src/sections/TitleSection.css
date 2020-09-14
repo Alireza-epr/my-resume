@@ -1,0 +1,35 @@
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.title h1{
+	color:rgba(10, 94, 219);
+	font-size: 2rem;
+}
+
+.title h3 {
+	color:rgb(11, 74, 168);
+	font-size: 1.2rem;
+}
+
+.SocialIcon{
+	transition: all 0.3s ease-out;
+}
+.SocialIcon:hover {
+	transform: scale(1.2);
+}
+
+.anim {
+	animation: up 0.7s ease-out infinite;
+}
+
+@keyframes up {
+	from{
+		transform: translateY(0);
+	}
+	to{
+		transform:translateY(-5px);
+	}
+}

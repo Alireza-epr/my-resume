@@ -1,0 +1,26 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.about div:first-of-type div {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: flex-start;
+}
+.about-title {
+	text-transform: uppercase;
+	color:rgba(10, 94, 219);
+	font-size: 2rem;
+	text-align: center;
+}
+.about-p {
+	color:rgb(9, 60, 136);
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	margin-left: 1.2rem;
+	margin-right: 1.2rem;
+}
